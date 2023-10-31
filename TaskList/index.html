@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://file.myfontastic.com/jvk4emttSvCKPSaf9LmGjc/icons.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="src/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>To do list</title>
+</head>
+<body>
+    <div class="container ">
+        
+    <header class="red">
+        <center><h5>Lista de cosas para hacer</h5></center>
+    </header>
+    
+                
+                <input type="text" name="textInp" id="textInp">
+                <button type="button" class="btn-floating agregar btn-large waves-effect waves-light light-blue accent-4" id="agregar"> + </button>
+                <div class="pizzarra">
+ 
+                <ul id="lista"></ul>
+                <p id="sinTareas">Sin tareas pendientes</p>
+
+            </div>
+            <button type="button" class="red waves-effect waves-light btn btodo " id="eliminarTodo">BORRAR TODO</button>
+    </div>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

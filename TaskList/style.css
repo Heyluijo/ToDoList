@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;800;900&display=swap');
+
+*{
+    font-family:'Montserrat';
+    margin: 0%;
+    padding:0%;
+}
+
+body{
+    margin: 10vh 50vh;
+}
+
+header h5{
+padding-top: 5vh;
+height: 10vh;
+color:white;
+font-weight: 500;
+
+}
+
+.btn-floating{
+    font-weight: 800;
+    margin-top: -5vh;
+    float: right;
+    margin-right: 2vh;
+}
+
+.container{
+    margin: 25%;
+    width: 50vh;
+    min-height: 30vh;
+    height: auto;
+    border-radius: 0px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                 -20px -20px 60px #ffffff;
+}
+
+.erase{
+ color: white;
+ height: 3hv;
+ width: 8vh;
+ border-radius: 50px;
+}
+
+#textInp{
+    margin-left: 2vh;
+    width: 80%;
+}
+
+.pizzarra{
+    display: flex;
+}
+
+#btnBorrar{
+    margin-left: 5vh;
+    margin-top: 1vh;
+}
+
+#sinTareas{
+    margin: 0 auto;
+
+}
+
+.btodo{
+    display: block;
+    margin-top: 5vh;
+    width: 100%;
+}
